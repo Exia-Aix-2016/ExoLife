@@ -1,7 +1,7 @@
 //Fonction to get the coordinates of the specified color in an image
 //imgsrc : The source image to analyse
 //clr : The color to find
-function coordinates=colorCoordinates(imgsrc,clr)
+function coordinates=color_coordinates(imgsrc,clr)
     //Create empty matrix
     coordinates = []
     //The global index in the result matrix
