@@ -61,6 +61,8 @@ scf(3)
 title("Histogramme de limage filtrée")
 plot(hist)
 
+//Done.
+
 
 
 
