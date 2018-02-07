@@ -18,6 +18,6 @@ Déterminer la quantité de certains gaz (méthane par exemple) dans l’atmosph
 
 ### Original
 
-![Original](img/Mars_surface.jpg)
+![Original](img/original.png)
 
 ### Resultat

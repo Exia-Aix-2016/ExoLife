@@ -18,6 +18,6 @@ Identifier une zone ou atterir.
 
 ### Original
 
-![Original](img/Encelade_surface.jpg)
+![Original](img/original.png)
 
 ### Resultat

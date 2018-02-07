@@ -18,6 +18,6 @@ Cartographier la circulation de l'eau sous la surface glacée de l'astre en ne f
 
 ### Original
 
-![Original](img/Europa_surface.jpg)
+![Original](img/original.png)
 
 ### Resultat

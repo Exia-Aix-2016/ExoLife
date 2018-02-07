@@ -18,6 +18,8 @@ Obtenir une image de la planète de meilleure qualité.
 
 ### Original
 
-![Original](img/jupiter.jpg)
+![Original](img/original1.png)
+
+![Original](img/original2.png)
 
 ### Resultat
