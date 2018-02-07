@@ -10,8 +10,8 @@ Possèderait de l'eau sous la surface.
 ![Encelade](img/Encelade.jpg)
 
 #### Objectif 
-Identifier une zone ou atterir.
 
+Identifier une zone ou atterir.
 > Là où les coordonnées des zones ayant le plus haut niveau de gris dans l'image.
 
 ## Solution
