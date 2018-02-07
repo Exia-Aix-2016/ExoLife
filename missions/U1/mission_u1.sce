@@ -8,10 +8,8 @@ imshow(img)
 
 //HISTOGRAMME
 hist = zeros(1,256)
-xmax = size(imgF,1)
-ymax = size(imgF,2)
-
-
+xmax = size(img,1)
+ymax = size(img,2)
 
 //HISTOGRAMME DE L'IMAGE
 for x=1:xmax
