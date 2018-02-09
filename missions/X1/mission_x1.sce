@@ -1,5 +1,5 @@
 //CHARGEMENT DE l'IMAGE
-imgOriginale = load("Asellus Secundus.dat")
+imgOriginale = load('Asellus Secundus.dat');
 
 
 /*sfc(0)
