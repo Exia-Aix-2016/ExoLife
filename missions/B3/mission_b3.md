@@ -21,3 +21,17 @@ Séparer en 4 parties distinctes les zones présentes sur la photo afin de disti
 ![Original](img/original.png)
 
 ### Resultat
+
+#### Etape 1: Calcul de l'histogramme
+
+![Histogramme](img/histogramme.png)
+
+#### Etape 2: Affichage des différents seuillages
+
+![Seuillage10](img/seuillage10.png)
+
+![Seuillage16](img/seuillage16.png)
+
+![Seuillage31](img/seuillage31.png)
+
+![Seuillage255](img/seuillage255.png)
