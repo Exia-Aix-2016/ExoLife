@@ -1,4 +1,4 @@
-getd("..\ExoLife\libs\")
+getd ('..\ExoLife\libs\')
 //CHARGEMENT IMAGES
 img_origine_v2 = readpbm("missions\X2\Gliese 581d V2.pbm")
 img_origine = readpbm("missions\X2\Gliese 581d.pbm")
