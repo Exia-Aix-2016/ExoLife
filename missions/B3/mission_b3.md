@@ -32,6 +32,6 @@ Séparer en 4 parties distinctes les zones présentes sur la photo afin de disti
 
 ![Seuillage16](img/seuillage16.png)
 
-![Seuillage31](img/seuillage131.png)
+![Seuillage31](img/seuillage31.png)
 
 ![Seuillage255](img/seuillage255.png)
