@@ -21,3 +21,9 @@ Identifier une zone ou atterir.
 ![Original](img/original.png)
 
 ### Resultat
+
+#### Etape 1: Trouver le pixel qui a la valeur max
+
+Valeur du pixel: 216
+
+Coordonnées(x,y): 22 38
