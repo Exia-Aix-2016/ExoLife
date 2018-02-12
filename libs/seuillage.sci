@@ -1,4 +1,4 @@
-function render=seuillage(img,seuil)
+function seuillage(img,seuil)
     xmax = size(img,1)
     ymax = size(img,2)
     colorMin = 0
