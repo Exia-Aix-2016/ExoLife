@@ -23,3 +23,15 @@ Obtenir une image de la planète de meilleure qualité.
 ![Original](img/original2.png)
 
 ### Resultat
+
+#### Etape 1: Definir une image bruit avec une soustraction
+
+![Step1](img/step1.png)
+
+#### Etape 2: Soustraire l'image bruit
+
+![Step2](img/step2.png)
+
+#### Etape 3: Appliquer un filtre median
+
+![Result](img/result.png)
