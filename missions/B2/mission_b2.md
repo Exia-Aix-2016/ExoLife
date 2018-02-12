@@ -19,3 +19,7 @@ Améliorer la visibilité de l'image pour la donner ensuite à un autre service 
 ![Original](img/original.png)
 
 ### Resultat
+
+#### Etape 1: Transformation linéaire
+
+![Original](img/result.png)
