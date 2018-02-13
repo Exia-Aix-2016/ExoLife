@@ -23,3 +23,7 @@ Vérifier que ce qui apparaît sur l'image est bien de la végétation.
 ![Original 2](img/original2.png)
 
 ### Resultat
+
+#### Etape 1: Effectuer une moyenne des niveaux de gris
+
+Taux de gaz (%): 54.926574
