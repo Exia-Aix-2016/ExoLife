@@ -5,6 +5,7 @@ img_origine = readpbm("missions\X2\Gliese 581d.pbm")
 
 
 //===============IMG V2===============
+
 scf(1)
 title("Image : Gliese 581d V2 bruitée")
 display_gray(img_origine_v2)
@@ -35,41 +36,21 @@ title("Image : Gliese 581d : bruitée")
 display_gray(img_origine)
 
 
-//HISTOGRAMME IMAGE NON DEBRUITE
-scf(6)
-title("histogramme image débruitée")
-hist = histogramme(img_origine)
-plot(hist)
-
-//TRANSFORMATION LINEAIRE (NORMALISEE)
-
-Hc = zeros(1, 256)
 xmax = size(img_origine,1)
 ymax = size(img_origine,2)
-imgf1 = 255 / (max(img_origine) - min(img_origine)) * (img_origine - min(img_origine))
 
-hist = histogramme(imgf1)
-//HISTOGRAMME CUMULE
-for x=2:256   
-   Hc(x) = Hc(x-1) + hist(x)
-end
-//EGALISATION
+
 for x=1:xmax
    for y=1:ymax
-       img1(x,y) = (Hc(double(imgf1(x,y))+1) * 255) / (xmax * ymax)
-          
+       if img_origine(x,y) < 100 then
+           img_origine(x,y) = 0
+       elseif img_origine(x,y) > 150 then
+           img_origine(x,y) = 0
+       else
+           img_origine(x,y) = 255
+       
+         end
    end
 end
-filtre_average = [1/12 1/12 1/12
-                  1/12 1/3 1/12
-                  1/12 1/12 1/12]
-
-
-
-imgF = imfilter(img1, filtre_average)
-
-
 scf(7)
-title("Image : Gliese 581d débruitée")
-display_gray(imgF)
-
+display_gray(img_origine)
