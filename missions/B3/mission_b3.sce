@@ -1,8 +1,9 @@
-getd ('../../libs/')
-img = readpbm('HD215497.pbm')
-xmax = size(img,1)
-ymax = size(img,2)
-hist = zeros(1,256)
+getd ('../../libs/');
+
+img = readpbm('HD215497.pbm');
+xmax = size(img,1);
+ymax = size(img,2);
+hist = zeros(1,256);
 
 // Réalisation de l'histogramme
 for x=1:xmax
@@ -12,23 +13,28 @@ for x=1:xmax
 end
 
 // Affichage de l'histogramme
-scf(0)
-plot(hist)
+scf(0);
+plot(hist);
 xs2png(0, "img/histogramme.png");
 
 // Calcul du seuillage
+seuillage10 = linear(seuillage(img, 10));
+seuillage16 = linear(seuillage(img, 16));
+seuillage31 = linear(seuillage(img, 31));
+seuillage255 = linear(seuillage(img, 255));
+
 scf(1)
-display_gray(seuillage(img, 10))
-imwrite(to_native_img(seuillage(img, 10)), "img/seuillage10.png");
+display_gray(seuillage10);
+imwrite(to_native_img(seuillage10), "img/seuillage10.png");
 
 scf(2)
-display_gray(seuillage(img, 16))
-imwrite(to_native_img(seuillage(img, 16)), "img/seuillage16.png");
+display_gray(seuillage16);
+imwrite(to_native_img(seuillage16), "img/seuillage16.png");
 
 scf(3)
-display_gray(seuillage(img, 31))
-imwrite(to_native_img(seuillage(img, 31)), "img/seuillage31.png");
+display_gray(seuillage31);
+imwrite(to_native_img(seuillage31), "img/seuillage31.png");
 
 scf(4)
-display_gray(seuillage(img, 255))
-imwrite(to_native_img(seuillage(img, 255)), "img/seuillage255.png");
+display_gray(seuillage255);
+imwrite(to_native_img(seuillage255), "img/seuillage255.png");

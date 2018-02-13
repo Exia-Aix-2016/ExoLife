@@ -11,5 +11,5 @@ function [render]=seuillage(img,seuil)
             end
         end
     end
-    render = img
+    render = img;
 endfunction
