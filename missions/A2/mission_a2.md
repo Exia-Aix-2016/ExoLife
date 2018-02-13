@@ -21,3 +21,7 @@ Déterminer la quantité de certains gaz (méthane par exemple) dans l’atmosph
 ![Original](img/original.png)
 
 ### Resultat
+
+#### Moyenne de la quantitée de blanc
+
+Quantitée de gaz: 54.926574 %
