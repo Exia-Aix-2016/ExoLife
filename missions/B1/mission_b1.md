@@ -22,3 +22,7 @@ Travailler l'image reçue afin de faire apparaître l'atmosphère de la planète
 ![Original](img/original.png)
 
 ### Resultat
+
+#### Etape 1: Transformation linéaire
+
+![Original](img/result.png)

@@ -20,3 +20,7 @@ Transformer l'étrange image reçue par la sonde. Celle-ci ne répond plus aux c
 ![Original](img/AsellusSecundus.jpg)
 
 ### Resultat
+
+#### Etape 1: Inverse de la transformée de Fourrier
+
+![Result](img/result.png)

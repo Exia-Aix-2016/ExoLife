@@ -21,3 +21,11 @@ Cartographier la circulation de l'eau sous la surface glacée de l'astre en ne f
 ![Original](img/original.png)
 
 ### Resultat
+
+#### Etape 1: Garder uniquement les pixels blancs
+
+![Step1](img/step1.png)
+
+#### Etape 2: Filtre passe bas
+
+![Result](img/result.png)

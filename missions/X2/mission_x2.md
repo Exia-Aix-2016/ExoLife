@@ -23,3 +23,11 @@ Vérifier que ce qui apparaît sur l'image est bien de la végétation.
 ![Original 2](img/original2.png)
 
 ### Resultat
+
+#### Etape 1 (image v2): Effectuer un filtrage median
+
+![Result](img/result_v2.png)
+
+#### Etape 1 (image v1): Seuillage
+
+![Result](img/result_v1.png)
