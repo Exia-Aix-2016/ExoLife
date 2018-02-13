@@ -21,3 +21,7 @@ Une planète semble se trouver à un endroit de l'univers où une faille tempore
 ![Original](img/original.png)
 
 ### Resultat
+
+#### Etape 1: Detection de contours (sobel)
+
+![Result](img/result.png)
