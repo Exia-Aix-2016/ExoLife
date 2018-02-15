@@ -10,6 +10,15 @@ Rechercher de la vie ailleur dans l'univers grâce au traitement d'images
 
 ---
 
+## Sommaire
+
+- Missions A: traitement d'image local
+- Missions B: transformation linéaire et seuillage
+- Missions U: traitement par convolution et détection de contour
+- Missions X: transformation de Fourrier et filtre median
+
+---
+
 ## Mission A-1: Encelade
 
 Identifier une zone ou atterir.
@@ -30,7 +39,7 @@ On cherche le pixel qui a la valeur la plus élevée.
 
 Valeur du pixel: 216
 
-Coordonnées(x,y): 22 38
+Coordonnées: x=22;y=38
 
 ---
 
@@ -375,3 +384,12 @@ Vérifier que ce qui apparaît sur l'image est bien de la végétation.
 On applique un filtre median.
 
 ![Result](missions/X2/img/result_v2.png)
+
+---
+
+## Conclusion
+
+- Traitement d'image 👍️
+- Faire un mini framework ?
+- Scilab 🎲
+- Scilab documentation 👎
